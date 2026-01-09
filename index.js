@@ -104,6 +104,30 @@
 // console.log(engKattaVaEngkichikOrasi([2,54,4,11,1,34,11]));
 
 // 6-masala
+// function reverseBetweenMinMax(arr) {
+//     let minIndex = 0
+//     let maxIndex = 0
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] < arr[minIndex]) {
+//             minIndex = i
+//         }
+//         if (arr[i] > arr[maxIndex]) {
+//             maxIndex = i
+//         }
+//     }
+//     let start = Math.min(minIndex, maxIndex)
+//     let end = Math.max(minIndex, maxIndex)
+//     if (end - start <= 1) {
+//         return [...arr]
+//     }
+//     let result = [...arr]
+//     let middlePart = arr.slice(start + 1, end).reverse()
+//     for (let i = start + 1, j = 0; i < end; i++, j++) {
+//         result[i] = middlePart[j];
+//     }
+//     return result;
+// }
+// console.log(reverseBetweenMinMax([2, 54, 4, 11, 1, 34, 11]));
 
 
 
